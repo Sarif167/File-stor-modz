@@ -24,7 +24,7 @@ FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", ""))
 # Display the Bot's Uptime
 BOT_STATS_TEXT = os.environ.get("BOTS_STATS_TEXT","<b>BOT UPTIME </b>\n{uptime}")
 # Default reply sent to users when they message the bot directly.
-USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "ʜɪ, ɪ ᴀᴍ ᴍᴀᴅᴇ ʙʏ @trinityXmods\n\nᴏɴʟʏ ᴀᴅᴍɪɴꜱ ᴄᴀɴ ᴜꜱᴇ ᴛʜᴇ ʙᴏᴛ ᴅɪʀᴇᴄᴛʟʏ ʙʏ ꜱᴇɴᴅɪɴɢ ꜰɪʟᴇꜱ — ᴏᴛʜᴇʀꜱ ᴄᴀɴɴᴏᴛ ꜱᴇɴᴅ ᴀɴʏᴛʜɪɴɢ ʜᴇʀᴇ.\n\n📦 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ: https://github.com/Trinity-Mods/File-Store-Bot")
+USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "ʜɪ, ɪ ᴀᴍ ᴍᴀᴅᴇ ʙʏ @TGservice_ROBOT\n\nᴏɴʟʏ ᴀᴅᴍɪɴꜱ ᴄᴀɴ ᴜꜱᴇ ᴛʜᴇ ʙᴏᴛ ᴅɪʀᴇᴄᴛʟʏ ʙʏ ꜱᴇɴᴅɪɴɢ ꜰɪʟᴇꜱ — ᴏᴛʜᴇʀꜱ ᴄᴀɴɴᴏᴛ ꜱᴇɴᴅ ᴀɴʏᴛʜɪɴɢ ʜᴇʀᴇ.\n\n📦 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ: https://t.me/Prime_Movie_Request_bot")
 
 # Paste your bot token here (get it from https://t.me/BotFather)
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "") 
