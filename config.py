@@ -29,13 +29,13 @@ USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "ʜɪ, ɪ ᴀᴍ ᴍᴀᴅ�
 # Paste your bot token here (get it from https://t.me/BotFather)
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "") 
 # Provide the API ID associated with your Telegram application (from https://my.telegram.org/apps)
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "23621595"))
 # Provide the API Hash linked to your Telegram application (available at https://my.telegram.org/apps)
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "de904be2b4cd4efe2ea728ded17ca77d")
 # Enter the channel ID of the database channel where all files will be stored.
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1004396860596"))
 # Enter your personal Telegram user ID (you can get it by sending '/id' to https://t.me/MissRose_bot).
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1249672673"))
 #port set to default 8080, change according to your will.
 PORT = os.environ.get("PORT", "8080")
 # Enter your MongoDB connection URL. You can use a free cloud database from MongoDB Atlas.
@@ -111,7 +111,7 @@ DISABLE_CHANNEL_BUTTON = True if os.environ.get("DISABLE_CHANNEL_BUTTON", "TRUE"
 # Example: 6011680723 1234567890
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "1234567890 0987654321").split()):
+    for x in (os.environ.get("ADMINS", "2108966088").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
