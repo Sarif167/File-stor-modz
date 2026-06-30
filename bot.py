@@ -124,7 +124,7 @@ class Bot(Client):
         )
 
         self.set_parse_mode(ParseMode.HTML)
-        self.LOGGER(__name__).info(f"Bot made by @the_universal_being!")
+        self.LOGGER(__name__).info(f"Bot made by @Prime_Movie_Request_bot")
         self.username = usr_bot_me.username
 
 
@@ -136,7 +136,7 @@ class Bot(Client):
 
     async def stop(self, *args):
         await super().stop()
-        self.LOGGER(__name__).info("Bot stopped.contact @the_universal_being")
+        self.LOGGER(__name__).info("Bot stopped.contact @Prime_Movie_Request_bot")
 
 # ────────────────────────────────────────────────────────────────
 
