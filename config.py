@@ -46,7 +46,7 @@ DB_NAME = os.environ.get("DB_NAME", "Cluster0")
 # Set the number of worker threads for the bot. To avoid sleeping issues and improve performance, keep it above 50 (recommended).
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "50"))
 # Message displayed to users when they click the Start button or send the /start command.
-START_MSG = os.environ.get("START_MESSAGE", "ʜᴇʟʟᴏ ᴛʜᴇʀᴇ {mention}!!🌚\n\nɪ ᴀᴍ ᴅᴇꜱɪɢɴᴇᴅ ᴛᴏ ꜱʜᴀʀᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ꜱᴘᴇᴄɪᴀʟ ʟɪɴᴋꜱ!! 🪄\n\nɪ ᴀᴍ ᴅᴇꜱɪɢɴᴇᴅ ʙʏ @trinityXmods ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ. 🎀")
+START_MSG = os.environ.get("START_MESSAGE", "ʜᴇʟʟᴏ ᴛʜᴇʀᴇ {mention}!!🌚\n\nɪ ᴀᴍ ᴅᴇꜱɪɢɴᴇᴅ ᴛᴏ ꜱʜᴀʀᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ꜱᴘᴇᴄɪᴀʟ ʟɪɴᴋꜱ!! 🪄\n\nɪ ᴀᴍ ᴅᴇꜱɪɢɴᴇᴅ ʙʏ @TGservice_ROBOT ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ. 🎀")
 # Enter your Telegram username (without @). A public username is required to use this bot.
 OWNER_TAG = os.environ.get("OWNER_TAG", "Prime_Movie_Request_bot")
 # Time (in seconds) after which messages will be auto-deleted. Use 0 to keep messages permanently.
