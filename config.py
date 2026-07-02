@@ -72,7 +72,7 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/triniyXmods/53")
 
 # Enable payment system to allow users to remove token limits or purchase premium features.
 # Set to TRUE to activate payments in the bot and earn money.
-USE_PAYMENT = True if (True if os.environ.get("USE_PAYMENT", "TRUE") == "TRUE" else False) and (USE_SHORTLINK) else False
+USE_PAYMENT = True if (True if os.environ.get("USE_PAYMENT", "False") == "False" else False) and (USE_SHORTLINK) else False
 # Enter your UPI ID for receiving payments.
 UPI_ID = os.environ.get("UPI_ID", "BHARATPE.9Q0Q0K0Z8Q466572@unitype")
 # Enter the direct image URL of your UPI QR code (used for payment).
