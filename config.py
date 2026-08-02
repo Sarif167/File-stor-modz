@@ -82,19 +82,19 @@ SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/Prime_Movie_Request_bot
 # Define subscription durations and their respective prices:
 # Duration: 7 Days
 # Only change the prices and currency, nothing else.
-PRICE1 = os.environ.get("PRICE1", "₹30")
+PRICE1 = os.environ.get("PRICE1", "₹15")
 
 # Duration: 1 Month
-PRICE2 = os.environ.get("PRICE2", "₹90")
+PRICE2 = os.environ.get("PRICE2", "₹40")
+
+# Duration: 2 Months
+PRICE3 = os.environ.get("PRICE3", "₹75")
 
 # Duration: 3 Months
-PRICE3 = os.environ.get("PRICE3", "₹200")
+PRICE4 = os.environ.get("PRICE4", "₹115")
 
-# Duration: 6 Months
-PRICE4 = os.environ.get("PRICE4", "₹350")
-
-# Duration: 1 Year
-PRICE5 = os.environ.get("PRICE5", "₹600")
+# Duration: 4 Months
+PRICE5 = os.environ.get("PRICE5", "₹150")
 
 
 # Message shown to users when they are required to join a channel or group (force subscription prompt).
