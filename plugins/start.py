@@ -214,7 +214,7 @@ async def start_command(client: Client, message: Message):
                         [InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ 🎀", url=link)],
                         [InlineKeyboardButton('ᴅᴏᴡɴʟᴏᴀᴅ ᴛᴜᴛᴏʀɪᴀʟ 🎥', url=TUT_VID)]
                         ]
-                    await message.reply(f"ʜᴇʟʟᴏ ᴛʜᴇʀᴇ!\n\nJo files aap dhoondh rahe hain unhe paane ke liye 'Download Now' button dabaiye. Agar aapko files download karna nahi aata, to 'Download Tutorial' button dabaiye.\nɪꜰ ʏᴏᴜ ᴅᴏɴ'ᴛ ᴋɴᴏᴡ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴛʜᴇ ꜰɪʟᴇꜱ, ʜɪᴛ ᴛʜᴇ 'ᴅᴏᴡɴʟᴏᴀᴅ ᴛᴜᴛᴏʀɪᴀʟ' ʙᴜᴛᴛᴏɴ.\n\n<blockquote>ᴛɪʟʟ ɴᴏᴡ, {clicks} ᴜꜱᴇʀꜱ ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ᴛʜᴇ ꜰɪʟᴇ(ꜱ) ᴀʟʀᴇᴀᴅʏ!</blockquote>\n\nɢᴏ ᴀʜᴇᴀᴅ ᴀɴᴅ ʟɪᴠᴇ ʏᴏᴜʀ ᴅʀᴇᴀᴍꜱ ʙᴜᴅᴅʏ!", reply_markup=InlineKeyboardMarkup(btn), protect_content=False, quote=True)
+                    await message.reply(f"ʜᴇʟʟᴏ ᴛʜᴇʀᴇ!\n\nJo files aap dhoondh rahe hain unhe paane ke liye 'Download Now' button dabaiye. Agar aapko files download karna nahi aata, to 'Download Tutorial' button dabaiye.\nɪꜰ ʏᴏᴜ ᴅᴏɴ'ᴛ ᴋɴᴏᴡ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴛʜᴇ ꜰɪʟᴇꜱ, ʜɪᴛ ᴛʜᴇ 'ᴅᴏᴡɴʟᴏᴀᴅ ᴛᴜᴛᴏʀɪᴀʟ' ʙᴜᴛᴛᴏɴ.\n\n<blockquote>ᴛɪʟʟ ɴᴏᴡ, {clicks} ᴜꜱᴇʀꜱ ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ᴛʜᴇ ꜰɪʟᴇ(ꜱ) ᴀʟʀᴇᴀᴅʏ!</blockquote>\n\nAage badhiye aur apne sapne poore kijiye, dost!"!", reply_markup=InlineKeyboardMarkup(btn), protect_content=False, quote=True)
                     return
     
     for i in range(1):
