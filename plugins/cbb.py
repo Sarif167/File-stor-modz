@@ -38,7 +38,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             pass
     elif data == "buy_prem":
         await query.message.edit_text(
-            text=f"👋 @{query.from_user.username}, here are our Prime Membership plans – /n{PRICE1}/7 days, \n{PRICE2}/1 month, \n{PRICE3}/2 months, \n{PRICE4}/3 months, \n{PRICE5}/4 months, \\n💵 UPI ID: <code>{UPI_ID}</code>, \\nn📸 <a href='{UPI_IMAGE_URL}'>Scan QR Code</a> to pay, \\n🧾 After payment, send your screenshot | 💬 For help or alternative payment methods, contact @Prime_Movie_Request_bot",
+            text=f"👋 @{query.from_user.username}, here are our Prime Membership plans – /n{PRICE1}/7 days, \n{PRICE2}/1 month, \n{PRICE3}/2 months, \n{PRICE4}/3 months, \n{PRICE5}/4 months, \n\n💵 UPI ID: <code>{UPI_ID}</code>, \n\n📸 <a href='{UPI_IMAGE_URL}'>Scan QR Code</a> to pay, \n\n🧾 After payment, send your screenshot,\n 💬 For help or alternative payment methods, contact @Prime_Movie_Request_bot",
             disable_web_page_preview=True,
             reply_markup = InlineKeyboardMarkup(
                 [   
