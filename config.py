@@ -56,11 +56,11 @@ TIME = int(os.environ.get("TIME", "600"))
 # TRUE for yes FALSE if no
 
 # Do you want to enable shortner in this bot? Set to TRUE for yes, False for no.
-USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "False") == "False" else False 
+USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "TRUE") == "TRUE" else False 
 # Enter the base URL of the shortlink service (without https://).
-SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "linkshortify.com")
+SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "nanolinks.in")
 # Enter the API key provided by your chosen shortner service.
-SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "74e17137f92e31cc0406fab6fcf3131bc61f8ecc")
+SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "5a45385ef80e2ea365fa1af31dd2ad096615adce")
 # Set a custom expiration time (in seconds) for the shortlink.
 # Example: 24 hours = 86400, 12 hours = 43200
 # This method is useful only if U_S_E_P or rather the token verification system is enabled in the bot.
@@ -78,7 +78,7 @@ UPI_ID = os.environ.get("UPI_ID", "BHARATPE.9Q0Q0K0Z8Q466572@unitype")
 # Enter the direct image URL of your UPI QR code (used for payment).
 UPI_IMAGE_URL = os.environ.get("UPI_IMAGE_URL", "https://image.zaw-myo.workers.dev/image/d6da2d77-94c6-4f01-a8f9-02230b73ae9a")
 #No need to change anything here.
-SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/{OWNER_TAG}")
+SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/Prime_Movie_Request_bot")
 # Define subscription durations and their respective prices:
 # Duration: 7 Days
 # Only change the prices and currency, nothing else.
