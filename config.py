@@ -15,10 +15,10 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 # Specify the Telegram channel or group ID that users must join (force-subscribe) before using the bot.
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002648688388"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002076498781"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1003838573435"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002523462080"))
 FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1002641663814"))
-FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "-1002455587141"))
+FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "-1001937259467"))
 
 
 # Display the Bot's Uptime
@@ -56,7 +56,7 @@ TIME = int(os.environ.get("TIME", "600"))
 # TRUE for yes FALSE if no
 
 # Do you want to enable shortner in this bot? Set to TRUE for yes, False for no.
-USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "TRUE") == "TRUE" else False 
+USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "False") == "TRUE" else False 
 # Enter the base URL of the shortlink service (without https://).
 SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "nanolinks.in")
 # Enter the API key provided by your chosen shortner service.
